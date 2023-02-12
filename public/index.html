@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Media Icons</title>
+
+    <h1>HELLO DOTKONNEKT..</h1>
+
+    <h3>GIVEN TASK IS BELOW</h3>
+
+    <h4>CLICK ON THE SHARE BUTTON</h4>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <span class="close-btn">
+        <i class="fa-sharp fa-solid fa-share-nodes"></i>
+      </span>
+
+      <div class="media-icons">
+        <a href="https://www.linkedin.com" style="background: #0e76a8">
+          <i class="fa-brands fa-linkedin"></i>
+          <span class="tooltip" style="color: #0e76a8">Linkedin</span>
+        </a>
+        <a href="https://www.whatsapp.com" style="background: #ff0000">
+          <i class="fa-brands fa-square-whatsapp"></i>
+          <span class="tooltip" style="color: #0feb58">Whatsapp</span>
+        </a>
+        <a href="https://www.gmail.com" style="background: #ea4689">
+          <i class="fa-solid fa-envelope"></i>
+          <span class="tooltip" style="color: #ea4689">Mail</span>
+        </a>
+
+        <a href="https://www.facebook.com" style="background: #4267b2">
+          <i class="fa-brands fa-facebook-f"></i>
+          <span class="tooltip" style="color: #4267b2">Facebook</span>
+        </a>
+        <a href="https://www.twitter.com" style="background: #1da1f2">
+          <i class="fa-brands fa-twitter"></i>
+          <span class="tooltip" style="color: #1da1f2">Twitter</span>
+        </a>
+      </div>
+    </div>
+
+    <script>
+      const closeBtn = document.querySelector(".close-btn");
+
+      closeBtn.addEventListener("click", () => {
+        closeBtn.classList.toggle("open");
+      });
+    </script>
+  </body>
+</html>
